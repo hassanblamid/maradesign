@@ -1,0 +1,154 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-1 {
+        position: relative;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-1 {
+        position: relative;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar-1 {
+        position: relative;
+    }
+    .navbar ul,
+    ol {
+        margin: 0 1em 1.5em 1em !important;
+    }
+    .navbar-1 ul li a.nav-link {
+        margin: 0 15px 0 0 !important;
+    }
+    .navbar {
+        background: #fff;
+    }
+    .navbar ul>li>a {
+        color: #505050;
+        background: transparent;
+    }
+    .navbar ul>li:hover>a {
+        color: #008cfe;
+        background: transparent;
+    }
+    .fixed-top ul li a.nav-link {
+        margin: 0 15px 0 0;
+    }
+    .header-1-text h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .about-1-cont {
+        padding: 15px;
+    }
+    .about-1-cont-text h2 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .services-1-cont .nav-tabs .nav-link {
+        font-size: 14px;
+        padding: 0 5px 15px;
+        font-weight: 600;
+    }
+    .services-1-cont .tab-content {
+        margin: 20px 15px;
+    }
+    .blog-post .post-info {
+        border: 1px solid #ccc;
+        width: 60%;
+        border-radius: 50px;
+        margin: -15px auto 0 16%;
+        padding: 5px 15px;
+        text-align: center;
+        font-weight: 500;
+        background: #fff;
+        position: absolute;
+    }
+    .header-2-text {
+        margin: 50% 0 0 5%;
+        text-align: center;
+    }
+    .header-2-text h1 {
+        font-size: 35px;
+    }
+    .header-3-text h1,
+    .header-3-text h1 span {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .navbar ul,
+    ol {
+        margin: 0 1em 1.5em 1em !important;
+    }
+    .navbar-1 ul li a.nav-link {
+        margin: 0 15px 0 0 !important;
+    }
+    .navbar {
+        background: #fff;
+    }
+    .navbar ul>li>a {
+        color: #505050;
+        background: transparent;
+    }
+    .navbar ul>li:hover>a {
+        color: #008cfe;
+        background: transparent;
+    }
+    .fixed-top ul li a.nav-link {
+        margin: 0 15px 0 0;
+    }
+    .header-1-text h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .about-1-cont {
+        padding: 15px;
+    }
+    .about-1-cont-text h2 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .services-1-cont .nav-tabs .nav-link {
+        font-size: 14px;
+        padding: 0 5px 15px;
+        font-weight: 600;
+    }
+    .services-1-cont .tab-content {
+        margin: 20px 15px;
+    }
+    .blog-post .post-info {
+        border: 1px solid #ccc;
+        width: 60%;
+        border-radius: 50px;
+        margin: -15px auto 0 16%;
+        padding: 5px 15px;
+        text-align: center;
+        font-weight: 500;
+        background: #fff;
+        position: absolute;
+    }
+    .header-2-text {
+        margin: 50% 0 0 5%;
+        text-align: center;
+    }
+    .header-2-text h1 {
+        font-size: 35px;
+    }
+    .header-3-text h1,
+    .header-3-text h1 span {
+        font-size: 35px;
+    }
+}
